@@ -1,0 +1,20 @@
+2019-02-11T06:42:35+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\cheonshop\wp-content\themes\seed-child\front-page.php:20
+Stack trace:
+#0 C:\xampp\htdocs\cheonshop\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\cheonshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cheonshop\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\cheonshop\wp-content\themes\seed-child\front-page.php on line 20
+
+2019-02-11T06:49:15+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp\htdocs\cheonshop\wp-content\themes\seed-child\front-page.php on line 29
+
+2019-02-11T09:13:08+00:00 CRITICAL syntax error, unexpected 'ry' (T_STRING) in C:\xampp\htdocs\cheonshop\wp-content\themes\seed-child\footer.php on line 36
+
+2019-02-11T09:19:27+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\cheonshop\wp-content\themes\seed-child\footer.php on line 112
+
+2019-02-11T09:19:47+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\cheonshop\wp-content\themes\seed-child\footer.php on line 112
+
+2019-02-11T09:20:02+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\xampp\htdocs\cheonshop\wp-content\themes\seed-child\footer.php on line 112
+
+2019-02-11T09:29:51+00:00 CRITICAL syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\cheonshop\wp-content\themes\seed-child\front-page.php on line 81
+
