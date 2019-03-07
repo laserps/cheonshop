@@ -1,10 +1,14 @@
 <?php
+<<<<<<< HEAD
 
 // BEGIN iThemes Security - Do not modify or remove this line
 // iThemes Security Config Details: 2
 define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
 // END iThemes Security - Do not modify or remove this line
 
+=======
+define('WP_AUTO_UPDATE_CORE', false);// This setting is required to make sure that WordPress updates can be properly managed in WordPress Toolkit. Remove this line if this WordPress instance is not managed by WordPress Toolkit anymore.
+>>>>>>> c86f53a96c7497f3430310c9e455c2b77be7d421
 /**
  * The base configuration for WordPress
  *
@@ -24,28 +28,26 @@ define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settin
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
+// ** MySQL settings ** //
 /** The name of the database for WordPress */
-define('WP_CACHE', true);
-define( 'WPCACHEHOME', 'C:\xampp\htdocs\cheonshop\wp-content\plugins\wp-super-cache/' );
-define('DB_NAME', 'shop');
+define( 'DB_NAME', 'wp_cheonshop' );
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define( 'DB_USER', 'wp_cheonshop' );
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define( 'DB_PASSWORD', 'N2kw6l#C0giTjcxk' );
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define( 'DB_HOST', 'localhost:3306' );
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define( 'DB_CHARSET', 'utf8' );
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+define( 'DB_COLLATE', '' );
 
-/**#@+
+/**
  * Authentication Unique Keys and Salts.
  *
  * Change these to different unique phrases!
@@ -54,16 +56,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '!mRLq7j}*PQr|}[z[yq$4tV4)7w(V FKH||krHmiYnaA?Prv!J889avq@^iBQ;4C');
-define('SECURE_AUTH_KEY',  '~mgc)gzG]{=3#-B[kR1<e=*xbvnIbQ-Je478 2W=>0@-W<@t;q|Hi]G!aSdtH?*f');
-define('LOGGED_IN_KEY',    'P~*#%`2<i{zuo27:MO<K1X.&GX=P98(@?0 .;nvJoVvG$+N^!U<UX.y>YUrKCU%&');
-define('NONCE_KEY',        'NSf%}tQQ%*bB3;lp !Z:5O,==ggLE1>FxV9l.vWsw<;/vmQGNr]Zh |T5w+Rpv0J');
-define('AUTH_SALT',        ';dA!xnk;@Ja,@j:MTq0Z0!}L{V1c/j!VBiD{08@D>(5VaZ+g9?@*l!bG8%^NaC6b');
-define('SECURE_AUTH_SALT', '/KNi9/CV4K42KR<K6q4q0]RG9T3hRr{56*u<wc9%U:/maY(9f#T!*h0^UP)MP$j}');
-define('LOGGED_IN_SALT',   'B%?1tnb&6t1,QL}h=Bf.vN<Z=T?NLZhztb;M(1VJAl9i#g1#*`FsCUnHVON[peI:');
-define('NONCE_SALT',       'v9]Wc$q:X_yU2)!>.]qA~=?!MzG2IH;CfTA7tDJ|L^g,.X{nC42/U~f:!WaTFDg`');
-
-/**#@-*/
+define('AUTH_KEY', 'h|H0impusX0tG(52aLW7w8i+:yniJixvFtJH;rEyY-Qs@15@HDKx8a|o7*59Q01E');
+define('SECURE_AUTH_KEY', '(1R|48KUAe3rE370iTQ56yl8(GhFfvLt*k2)]#4&2_TP8UDo:VQ8T&03%yAYKgX@');
+define('LOGGED_IN_KEY', 'qlhI_3%1P1T~mt97S4#8x-m;|A1|q1iBw4%/K8V];q2(;5/n~;&x-Z6VeLp0b_w&');
+define('NONCE_KEY', '5:It4Fnpam7@h26;83;;XG-/90(]j8&9pA6M&Q)A2N/Ta;4t1&fN![!thK-82A7I');
+define('AUTH_SALT', '2M3T!*r3FjRrlRGj#06y_Z5dqO*1]@ZQs2p[qE8S0cfBDJ_(u0]P9KT6QfI2q[TP');
+define('SECURE_AUTH_SALT', '&%T9C~2!@/SQ+6lk6T0Lr;@@)646u3BQy(]y/5h0|c5N56Et8h6Fa1bYsS[Hy88Z');
+define('LOGGED_IN_SALT', ';z5nwe2)_RD_v#GoWM3*ad;%%2L/|aY6-7-%wT/Bt0H+;bic(4|_9BeH0(+D3#bn');
+define('NONCE_SALT', '0Tf1jOr4(nciTB|30Il0|F&NhWn9099a0%4/sXz@]|1E4vO+EUf8d)00Ll4DL0JK');
 
 /**
  * WordPress Database Table prefix.
@@ -71,6 +71,7 @@ define('NONCE_SALT',       'v9]Wc$q:X_yU2)!>.]qA~=?!MzG2IH;CfTA7tDJ|L^g,.X{nC42/
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
+<<<<<<< HEAD
 $table_prefix  = 'wp_';
 
 /**
@@ -89,12 +90,19 @@ $table_prefix  = 'wp_';
 define( 'AUTOMATIC_UPDATER_DISABLED', true );
 
 define('WP_DEBUG', false);
+=======
+//$table_prefix = '9gG7QunT_';
+$table_prefix = 'wp_';
+>>>>>>> c86f53a96c7497f3430310c9e455c2b77be7d421
 
+define('WP_ALLOW_MULTISITE', true);
+define('CONCATENATE_SCRIPTS', false);
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
-if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
-
+if ( ! defined( 'ABSPATH' ) )
+	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+define('WP_HOME','http://www.cheonshop.com');
+define('WP_SITEURL','http://www.cheonshop.com');
 /** Sets up WordPress vars and included files. */
-require_once(ABSPATH . 'wp-settings.php');
+require_once ABSPATH . 'wp-settings.php';
